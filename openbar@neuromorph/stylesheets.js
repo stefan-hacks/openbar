@@ -2830,6 +2830,7 @@ function getStylesheet(obar, Me) {
                 background-color: rgba(${smbgred},${smbggreen},${smbgblue},${mbgAlpha*1.2}) !important;
                 box-shadow: 0 1px 2px 0 rgba(${mshred},${mshgreen},${mshblue},0.05) !important;
                 border: 1px solid rgba(${mshred},${mshgreen},${mshblue},0.13) !important;
+                box-sizing: border-box !important;
             }
             ${openmenuClass}.quick-settings .icon-button:checked, ${openmenuClass}.quick-settings .button:checked {
                 color: rgba(${amfgred},${amfggreen},${amfgblue},${mfgAlpha*1.2}) !important;
